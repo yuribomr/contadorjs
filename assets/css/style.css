@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.paginatoda {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.paginatoda > p {
+  font-size: 22px;
+  margin-bottom: 20px;
+  transition: transform 0.5s;
+}
+
+.counter > button {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 50%;
+  transition: width 0.4s, height 0.4s;
+}
+.counter > button:active {
+  width: 50px;
+  height: 50px;
+}
+
+#currentNumber {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
